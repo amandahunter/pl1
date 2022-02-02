@@ -4,7 +4,7 @@
                then modify the lat and lng and zoom to point to a place you know  -->
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Pont-Audemer Map</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style>
       /* Always set the map height explicitly to define the size of the div
@@ -26,17 +26,19 @@
 
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: -34.397, lng: 150.644 },
+          center: { lat: 49.354883, lng: 0.514299 },
           zoom: 8,
         });
       }
     </script>
   </head>
   <body>
-    <div id="map"></div>
+    <div id="map" style="height:100%"></div>
+    <!--Set the height for the div to 100% explicitly-->
     
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <!-- *** STUDENTS: Replace YOUR_API_KEY text with provided key in class for property src in next line *** -->
+    <!-- *** Shawn, I used the Referrer Restricted key, the IP Restricted API did not work though my IP address was whitelisted *** -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
     </script>
   </body>

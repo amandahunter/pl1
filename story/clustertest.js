@@ -1,14 +1,15 @@
-function initMap() void {
+
+
+// source: https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
+// https://github.com/googlemaps/js-samples/blob/main/samples/custom-markers/src/index.ts
+function initMap()  {
     const map = new google.maps.Map(document.getElementById("map"){
       zoom: 8,
       center: { lat: 48, lng: -79 },
     });
     // Create an array of alphabetical characters used to label the markers.
     const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    // Add some markers to the map.
-    // Note: The code uses the JavaScript Array.prototype.map() method to
-    // create an array of markers based on a given "locations" array.
-    // The map() method here has nothing to do with the Google Maps API.
+    
     const markers = locations.map((location, i) => {
       return new google.maps.Marker({
         position: location,
@@ -29,10 +30,13 @@ function initMap() void {
   
   ];
     
+
+
   // ChIJ4zc8R5dX4EcRxegymMc8KCY  victors house
   // ChIJtWLrojBX4EcRGJ7ylX1M8uk  cemetary
   // ChIJKZKprAFy5kcREOvlZ8mwHiM  bastille
   // ChIJr0jUneNx5kcRQ_b6LMiOXek   notre dame
+  //To have at the ready in case later I want to do directions. 
 
 
    

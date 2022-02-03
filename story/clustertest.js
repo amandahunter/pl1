@@ -29,13 +29,10 @@ function initMap() void {
   
   ];
     
-  ChIJ4zc8R5dX4EcRxegymMc8KCY  victors house
-
-  ChIJtWLrojBX4EcRGJ7ylX1M8uk  cemetary
-
-
-  ChIJKZKprAFy5kcREOvlZ8mwHiM  bastille
-  ChIJr0jUneNx5kcRQ_b6LMiOXek   notre dame
+  // ChIJ4zc8R5dX4EcRxegymMc8KCY  victors house
+  // ChIJtWLrojBX4EcRGJ7ylX1M8uk  cemetary
+  // ChIJKZKprAFy5kcREOvlZ8mwHiM  bastille
+  // ChIJr0jUneNx5kcRQ_b6LMiOXek   notre dame
 
 
    

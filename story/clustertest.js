@@ -3,7 +3,7 @@
 // source: https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility
 // https://github.com/googlemaps/js-samples/blob/main/samples/custom-markers/src/index.ts
 function initMap()  {
-    const map = new google.maps.Map(document.getElementById("map"){
+    const map = new google.maps.Map(document.getElementById("map"),{
       zoom: 8,
       center: { lat: 48, lng: -79 },
     });
@@ -16,7 +16,7 @@ function initMap()  {
         label: labels[i % labels.length],
       });
     });
-    
+
     // Add a marker clusterer to manage the markers.
     new MarkerClusterer(map, markers, {
       imagePath:

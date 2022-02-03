@@ -10,6 +10,17 @@
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap"
       defer>
+
+
+ 
+    
+
+
+
+
+
+
+
     </script>
     <!--Some Marker Cluster code taken from https://developers.google.com/maps/documentation/javascript/marker-clustering#maps_marker_clustering-html-->
     <script src="clustertest.js"></script>
@@ -32,10 +43,9 @@
           font-family: Courier;
           color: #2d486c;
           font-size: 23;
-        }
-        center {
           text-align: center;
         }
+       
         p {
           font-family: Verdana;
           font-size: 12;
@@ -45,6 +55,7 @@
           font-family: Courier;
           color: #2d486c;
           font-size: 18;}
+          text-align: center;
     </style>
     <script>
       let map;
@@ -52,23 +63,39 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: 49.354883, lng: 0.514299 },
-          zoom: 10,
+          zoom: 8,
         });
       }
     </script>
   </head>
   <body>
-    <header> <h1 class="center">Victor Hugo</h1> </header>
+    <header> <h1>>Victor Hugo</h1> </header>
     <h2>His head in the clouds, his pen on real paper.</h2>
     <p>A beloved poet, novelist, and damatist, he drew his inspiration from nearby places, and though some of his books were fictitious, the places- 
       and even some of the events- were in fact very real. We will take a peek at some of his most notable literary works and the real locations that inspired these stories.</p>
     <div id="map" style="height:80%"></div>
+
     <!--Set the height for the div to 100% explicitly-->
     
-    <p>asdfasd</p>
-    <!-- ***  I used the Referrer Restricted key, the IP Restricted API did not work though my IP address was whitelisted *** -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
-    </script>
+    <h1>Places of Interest</h1>
+
+      <h2>Musée Victor Hugo</h1>
+        <p>Prior to his exile from France in later years for political reasons, Hugo spent most of his life living in Villequier, in a house along the Seine River. 
+          His home has been memorialized and made into a museum where some of his journals and drawings are on display. 
+          The interior is dark and quiet, a perfect setting for writing, while the view outside along the river is quintessentially French.</p>
+      <h2>Notre-Dame Cathedral</h2>
+      <p>Disparities between the suffering and the wealthy were stark in 1831, which sparked Hugo's fiction, Notre-Dame de Paris (The hunchback of Notre-Dame). Though the character was fictitious, many scenes 
+        from the novel were derived from his observations in Paris which we diligently wrote in his journals. 
+        Notre-Dame is a real cathedral located in Paris. </p>
+      <h2>Place de la Bastille</h2>
+      <p>The Place de la Bastille is a square in Paris where the Bastille prison stood until the storming of the Bastille and its 
+subsequent physical destruction between 14 July 1789 and 14 July 1790 during the French Revolution. 
+No vestige of the prison remains. The June Rebellion- or the Paris Uprising of 1832 began here, which Hugo was caught up in for several hours. 
+He hid in a side street while gunfire was exchanged and barricades were created. This influenced his book Les Miserables which was published some 20 years later. </p>
+      <h2>Cimetière de Villequier, Rives-en-Seine</h2>
+      <p>Victor Hugo's daughter, Leopoldine (named after his Hugo's father) married Charles Vacquerie where they met a tragic fate. Their boat overturned on the Seine in Villequier on 4 September 1843 and they drowned.
+ She was 19 years old and pregnant, her wet, heavy skirts pulled her down, and her husband died trying to save her. This had a heavy impact on Hugo's writing. One of his most famous poems,
+ Demain, Des L'Aube tells the story of Hugo visiting his daughter's grave in Villequier.
   </body>
 </html>
 

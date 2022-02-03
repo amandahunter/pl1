@@ -4,7 +4,7 @@
 // https://github.com/googlemaps/js-samples/blob/main/samples/custom-markers/src/index.ts
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"),{
-      zoom: 10,
+      zoom: 9,
       center: { lat: 49, lng: 1 },
     });
     // Create an array of alphabetical characters used to label the markers.

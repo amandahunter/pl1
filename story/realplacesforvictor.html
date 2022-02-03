@@ -4,8 +4,16 @@
                <!--https://amandahunter.github.io/pl1/story/realplacesforvictor.html-->
 <html>
   <head>
-    <title> Hugo's Real Places</title>
+    <title> Hugo's Places</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>   
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap"
+      defer>
+    </script>
+    <!--Some Marker Cluster code taken from https://developers.google.com/maps/documentation/javascript/marker-clustering#maps_marker_clustering-html-->
+    <script src="clustertest.js"></script>
+    <style>
     <style>
         
         #map {

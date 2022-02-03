@@ -44,7 +44,7 @@ function initMap() {
 // Below is an attempt to make icons as my markers via the github repository, in particular, I adapted this from 
 // https://github.com/googlemaps/js-samples/blob/main/samples/custom-markers/src/index.ts
 // Because this was not necessary but merely a bonus, I chose to include it here to see where I was going, 
-// and perhaps when you have time one of these days we can go over how to fine to this to make it Worker. 
+// and perhaps when you have time one of these days we can go over how to fine tune this to make it work. 
 
 
 // const iconBase = "https://github.com/amandahunter/pl1/tree/main/story/iconz";

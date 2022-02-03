@@ -7,7 +7,7 @@
     <title> Hugo's Real Places</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <style>
-     
+        
         #map {
           height: 100%;
         }
@@ -18,7 +18,25 @@
           height: 100%;
           margin: 0;
           padding: 0;
+          background-color: #c0cfe2
         }
+        h1 {
+          font-family: Courier;
+          color: #2d486c;
+          font-size: 23;
+        }
+        center {
+          text-align: center;
+        }
+        p {
+          font-family: Verdana;
+          font-size: 12;
+          text-align: left;
+        }
+        h2 {
+          font-family: Courier;
+          color: #2d486c;
+          font-size: 18;}
     </style>
     <script>
       let map;
@@ -32,10 +50,14 @@
     </script>
   </head>
   <body>
-    <div id="map" style="height:100%"></div>
+    <header> <h1 class="center">Victor Hugo</h1> </header>
+    <h2>His head in the clouds, his pen on real paper.</h2>
+    <p>A beloved poet, novelist, and damatist, he drew his inspiration from nearby places, and though some of his books were fictitious, the places- 
+      and even some of the events- were in fact very real. We will take a peek at some of his most notable literary works and the real locations that inspired these stories.</p>
+    <div id="map" style="height:80%"></div>
     <!--Set the height for the div to 100% explicitly-->
     
-    
+    <p>asdfasd</p>
     <!-- ***  I used the Referrer Restricted key, the IP Restricted API did not work though my IP address was whitelisted *** -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w&callback=initMap&v=weekly" async>
     </script>
